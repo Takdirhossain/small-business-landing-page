@@ -1,0 +1,32 @@
+.aboutmain{
+}
+.aboutus{
+    width: 90%;
+    display: flex;
+ 
+   margin: auto;
+    
+    align-content: center;
+    align-items: center;justify-content: center;
+}
+.aboutimg{
+    flex: 4;
+ 
+}
+.aboutimg img{
+ width: 70%;
+ height: 70%;
+ left: 0;
+ top: 0;
+}
+.aboutdis{
+    flex: 3;
+    text-align: left;
+}
+.ditales{
+    font-size: 45px;
+}
+.aboutexplain{
+    font-size: 16px;
+    color: #737373;
+}

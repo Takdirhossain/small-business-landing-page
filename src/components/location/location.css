@@ -1,0 +1,28 @@
+.location{
+    width: 90%;
+    margin: auto;
+    background-color: #151515    ;
+    color: white;
+    
+    margin-bottom: 100px;
+  
+}
+.location-wrapper{
+    display: flex;
+   padding-top: 30px;
+   padding-bottom: 30px;
+    justify-content: space-around;
+   
+    
+  
+}
+.info{
+    display: flex;
+   align-items: center;
+}
+.icon{
+    font-size: 50px !important;
+}
+.dayditls{
+    margin-left: 20px;
+}
