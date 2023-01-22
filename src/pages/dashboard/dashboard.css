@@ -1,0 +1,21 @@
+.dashboard{
+    width: fit-content;
+    margin: auto;
+}
+.addservice{
+    background-color: #ff3811;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+
+.servicesinfo{
+   padding-bottom: 20px;
+}
+.dashboard input {
+   margin-bottom: 20px;
+   height: 30px;
+   border-radius: 7px;
+}
