@@ -1,3 +1,6 @@
+.mainslider{
+  position: relative;
+}
 img {
   border-radius: 7px;
   height: 80vh;

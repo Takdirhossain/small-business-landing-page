@@ -14,7 +14,7 @@ const Aboutus = () => {
        
        <h2 className="ditales">We are qualified <br /> & of experience <br /> in this field</h2>
      <p className="aboutexplain">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. <br /> <br />the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-     <button className="discover">Get More info</button>
+     <button className="aboutbtn">Get More info</button>
      </div>
      </div>
     </div>

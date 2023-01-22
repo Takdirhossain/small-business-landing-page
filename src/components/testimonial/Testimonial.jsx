@@ -8,15 +8,35 @@ const Testimonial = () => {
   return (
     <div className="testimonial">
       <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
+         
+        
         pagination={{
           clickable: true,
         }}
         modules={[Pagination]}
+        
         className="mySwiper"
+        breakpoints={{
+          560:{
+            slidesPerView:1,
+            spaceBetween:30
+          },
+          760:{
+            slidesPerView:2,
+            spaceBetween:30
+          },
+          1100:{
+            slidesPerView:3,
+            spaceBetween:30
+          },
+          1200:{
+            slidesPerView:3,
+            spaceBetween:30
+          }
+        }}
       >
-        <SwiperSlide>
+        <div className="testimonial-wrapper">
+        <SwiperSlide >
           {" "}
           <>
             <div class="testimonial-container">
@@ -172,6 +192,7 @@ const Testimonial = () => {
               </div>
             </div>
           </>{" "}</SwiperSlide>
+        </div>
         
       </Swiper>
     </div>

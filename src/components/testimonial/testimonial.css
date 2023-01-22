@@ -62,3 +62,12 @@
   }
   
   
+  @media only screen and (max-width: 600px) {
+    .testimonial-wrapper{
+      display: flex;
+      flex-direction: column;
+    }
+}
+@media only screen and (max-width: 768px) {
+    
+}

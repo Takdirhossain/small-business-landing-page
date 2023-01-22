@@ -1,0 +1,68 @@
+.allservices {
+  width: 90%;
+  margin: auto;
+}
+.allservices h2 {
+  text-align: center;
+}
+.allservices p {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+.service-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  
+}
+.serviceimg {
+  width: 314px  ;
+  height: 208.01px  ;
+}
+.service {
+    margin: auto;
+    cursor: pointer;
+  padding: 15px;
+  border: 1px solid #e8e8e8;
+  border-radius: 7px;
+}
+.service-title {
+  color: #444444;
+}
+.service-price {
+  color: #ff3811;
+}
+.servicedetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.allservices h2{
+  margin-top: -20px;
+  margin-bottom: 0px;
+}
+.allservices p{
+  padding-bottom: 30px;
+}
+.icons{
+    cursor: pointer;
+}
+@media only screen and ( max-width: 767px) {
+    .service-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        
+      }
+      
+  }
+@media only screen and ( min-width: 1100px) {
+    .service-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        
+      }
+      
+  }

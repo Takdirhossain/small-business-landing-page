@@ -5,6 +5,7 @@ import FmdGoodIcon from '@mui/icons-material/FmdGood';
 const Location = () => {
   return (
     <div className="location">
+    
       <div className="location-wrapper">
         <div className="info">
           <CalendarMonthIcon className="icon"/>

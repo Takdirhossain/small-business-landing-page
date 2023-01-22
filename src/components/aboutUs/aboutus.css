@@ -1,5 +1,4 @@
-.aboutmain{
-}
+
 .aboutus{
     width: 90%;
     display: flex;
@@ -19,14 +18,42 @@
  left: 0;
  top: 0;
 }
+.aboutbtn{
+    background-color: #ff3811    ;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
 .aboutdis{
     flex: 3;
     text-align: left;
 }
 .ditales{
     font-size: 45px;
+    margin-bottom: 0px;
 }
 .aboutexplain{
     font-size: 16px;
     color: #737373;
+  
 }
+@media only screen and (max-width: 600px) {
+    .aboutus{
+        flex-direction: column;
+    }
+    .aboutimg img{
+        width: 100%;
+        margin: auto;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .aboutus{
+        flex-direction: column;
+    }
+    .aboutimg img{
+        width: 100%;
+        margin: auto;
+    }
+  }

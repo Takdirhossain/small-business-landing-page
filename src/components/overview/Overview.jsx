@@ -21,7 +21,7 @@ const Overview = () => {
           <div className='sider'>
             <img src={slide2} alt=""  width="200px"/>
             <div className='sidedis'>
-            <h2>Affordable <br /> Price For Car <br /> Servicing</h2>
+            <h2>MainTenance <br /> And Repaire Service </h2>
             <p>There are many variations of passages <br /> of  available, but the majority have <br /> suffered alteration in some form</p>
             <button className='discover'>Discover more</button>
             <button className='buynow'>Book now</button>
@@ -30,7 +30,7 @@ const Overview = () => {
           <div className='sider'>
             <img src={slide3} alt=""  width="200px"/>
             <div className='sidedis'>
-            <h2>Affordable <br /> Price For Car <br /> Servicing</h2>
+            <h2>We Can Handale <br />Any Car Problem </h2>
             <p>There are many variations of passages <br /> of  available, but the majority have <br /> suffered alteration in some form</p>
             <button className='discover'>Discover more</button>
             <button className='buynow'>Book now</button>

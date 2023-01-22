@@ -1,16 +1,14 @@
 
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import Aboutus from './components/aboutUs/Aboutus';
-import Location from './components/location/Location';
-import Overview from './components/overview/Overview';
-import Testimonial from './components/testimonial/Testimonial';
+import router from './router';
+
 
 function App() {
   return (
-    <div >
-     <Overview></Overview>
-    
-    </div>
+    <RouterProvider router={router}>
+     
+    </RouterProvider>
   );
 }
 
